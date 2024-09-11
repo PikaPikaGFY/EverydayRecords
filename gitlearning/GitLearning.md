@@ -101,7 +101,7 @@ also could marking merge-conflicted files as resolved
 
 ### Git commit
 
-It would call out your shell editor and you may see:
+It would invoke your shell editor and you may see:
 ```vim
 # Please enter the commit message for your changes. Lines starting
 # with '#' will be ignored, and an empty message aborts the commit.
