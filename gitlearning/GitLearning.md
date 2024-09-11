@@ -1,6 +1,6 @@
 # Git
 
-## 1 Getting Started
+## Getting Started
 
 **VCSs**: Version Control Systems  
 It allows you to revert selected files (even entire project) back to a previous state,and compare changes over time.
@@ -85,7 +85,7 @@ $ git config --global init.defaultBranch mian
 
 
 
-## 2 Git Basics
+## Git Basics
 
 ### Getting a Git Repository
 
