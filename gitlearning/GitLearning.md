@@ -89,13 +89,19 @@ $ git config --global init.defaultBranch mian
 
 ### Getting a Git Repository
 
+Use `git init` to creates a new subdirectory named *.git* that contains all of your necessary repository files --a Git repository skeleton. At this point,nothing in your project is tracked yet.
+
+### Git add
+
+Use this command to tracking New Files 
+
+and also could stage the tracked files which has been modified
+
+ also could marking merge-conflicted files as resolved
+
+### Git commit
 
 
-
-
-
-
- 
 
 ------
  表述积累：
