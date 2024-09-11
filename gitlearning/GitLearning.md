@@ -3,7 +3,7 @@
 ## 1 Getting Started
 
 **VCSs**: Version Control Systems  
-It allows you to revert selected files(even entire project) back to a previous state,and compare changes over time.
+It allows you to revert selected files (even entire project) back to a previous state,and compare changes over time.
 
 - ez to recover
 
@@ -25,7 +25,7 @@ the goals they set at first:
 
 - speed
 - simple design
-- strong support for non-linear development(thousands of parallel branches)
+- strong support for non-linear development (thousands of parallel branches)
 - fully distributed
 - able to handle large projects like the linux kernel efficiently (speed and data size)
 
@@ -55,7 +55,7 @@ the goals they set at first:
 The basic Git workflow goes something like this:
 
 1. modify a file in your working tree
-2. selectively stage just those you want to commit ,which adds the changes to the staging area
+2. selectively stage just those you want to commit, which adds the changes to the staging area
 3. A commit happens, the files in the staging area would store as a snapshot permanently to your Git directory
 
 ### Command Line
@@ -89,7 +89,7 @@ $ git config --global init.defaultBranch mian
 
 ### Getting a Git Repository
 
-Use `git init` to creates a new subdirectory named *.git* that contains all of your necessary repository files --a Git repository skeleton. At this point,nothing in your project is tracked yet.
+Use `git init` to creates a new subdirectory named *.git* that contains all of your necessary repository files --a Git repository skeleton. At this point, nothing in your project is tracked yet.
 
 ### Git add
 
@@ -126,8 +126,8 @@ This is convenient, but be careful;sometimes this flag will cause you include un
  
 *Remove a file from your staging area*    
 
-- If you just simply remove the file from your working directory,it shows up under the "Changes not stages for commit"   
-- Then,if you run `git rm`, it stages the file's removal  
+- If you just simply remove the file from your working directory, it shows up under the "Changes not stages for commit"   
+- Then, if you run `git rm`, it stages the file's removal  
 - The next time you commit, the file will be gone and no longer tracked.  
 - If you modified the file or had already added it to the staging area 
 
