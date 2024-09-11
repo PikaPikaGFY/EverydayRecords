@@ -9,3 +9,14 @@ Final assessment: Book Review
 Big data, big deal!  
 生物物理学是应用 **物理学的概念，理论和方法** 去研究生命现象中的物理和物理化学过程
 
+## Chapter 1 The Fundamental Structure of Proteins
+One of the core challenges of BioSciences is understanding the structures and the functions of proteins
+- simple proteins
+> These are pure proteins
+- conjugated proteins
+> These contain prosthetic groups or ligands
+
+(1) 催化功能  
+enzyme   
+high efficiency  
+also ribozyme (RNA could be enzyme) 
