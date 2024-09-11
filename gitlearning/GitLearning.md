@@ -101,6 +101,24 @@ also could marking merge-conflicted files as resolved
 
 ### Git commit
 
+It would call out your shell editor and you may see:
+```vim
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch main
+# Changes to be committed:
+#       modified:   gitlearning/GitLearning.md
+#
+~       
+~  .git/COMMIT_EDITMSG [unix] (10:12 11/09/2024)                                1,0-1 All
+```
+
+you can also use 
+```bash
+git commit -m "Some description of this commit"
+```
+
 
 
 
