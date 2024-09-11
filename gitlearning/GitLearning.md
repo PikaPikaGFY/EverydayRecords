@@ -147,3 +147,31 @@ git rm file_from
 git add file_to
 ```
 ### View the Commit History
+
+Use `git log`  
+It has many options to try
+
+### Undoing Things
+
+#### **Appending**  
+`git commit --amend`
+
+Be used for when you forget something to commit while you dont want to commit it twice.  
+- Like this
+```
+git commit -m "Initial commit"
+git add forgotten_file
+git commit --amend
+```
+then the second commit replaces the results of the first.  
+--end up with a single commit.
+
+#### **Unstaging a staged file**  
+`git restore --staged <file>`
+
+#### **Unmodifying a Modified file**  
+`git restore <file>`  
+**! ! ! It is important to understand that `git restore <file>` is dangerous ! ! !**  
+*Any changes you made to that file are gone--back to the last staged or commit version*
+### Working with Remotes
+To collaborate on any Git project
