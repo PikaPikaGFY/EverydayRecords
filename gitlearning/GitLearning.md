@@ -118,16 +118,32 @@ you can also use
 ```bash
 git commit -m "Some description of this commit"
 ```
+if you still want to do a simple shortcut, try to use the command `commit -a` 
 
+This is convenient, but be careful;sometimes this flag will cause you include unwanted changes
 
+### Git rm
+ 
+*Remove a file from your staging area*    
 
+- If you just simply remove the file from your working directory,it shows up under the "Changes not stages for commit"   
+- Then,if you run `git rm`, it stages the file's removal  
+- The next time you commit, the file will be gone and no longer tracked.  
+- If you modified the file or had already added it to the staging area 
 
+**`git rm --f`**
+This is a very dangerous command which it could remove your file physically.  
+JUST DELETE IT!
 
-------
- 表述积累：
+**`git rm --cached`**  
+This is also a useful tool for you to remove a file from the staging area
 
-**fairly large scope**
-
-**what is xx in a nutshell？**
-
-------
+### Moving files
+**`git mv file_from file_to`**  
+which is equivalent to running something like this :
+```
+mv file_from file_to
+git rm file_from
+git add file_to
+```
+### View the Commit History
