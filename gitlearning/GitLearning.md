@@ -97,9 +97,11 @@ Use this command to tracking New Files
 
 and also could stage the tracked files which has been modified
 
- also could marking merge-conflicted files as resolved
+also could marking merge-conflicted files as resolved
 
 ### Git commit
+
+
 
 
 
