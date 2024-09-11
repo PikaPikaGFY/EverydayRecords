@@ -20,7 +20,7 @@ One of the core challenges of BioSciences is understanding the structures and th
 enzyme   
 high efficiency  
 also ribozyme (RNA could be enzyme) 
-(2) transportation function  
-(3) 营养与储存功能  
-(4) 收缩与运动功能    
+(2) transportation function
+(3) 营养与储存功能
+(4) 收缩与运动功能
 垃圾课程，不想做笔记了
