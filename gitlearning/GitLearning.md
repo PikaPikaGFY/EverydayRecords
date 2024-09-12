@@ -175,3 +175,18 @@ then the second commit replaces the results of the first.
 *Any changes you made to that file are gone--back to the last staged or commit version*
 ### Working with Remotes
 To collaborate on any Git project
+#### Showing your remotes
+To see which remote severs you have configured,you can run the git remote command.Tt lists the shortnames of each remote handle yuo've specified.
+If you clone a repo, it at least give you a `origin` remote url.  
+You can also specify `-v` which shows you the URLs that Git has stored for the shortname to be used when reading and writing the remote.
+If you have more than one remote, the command lists them all.
+#### Adding Remote Repo
+Run 
+```bash
+git remote add <shortname> <url>
+```
+#### Fetching and Pulling from Your Remotes
+As you just saw, to get data from your remote projects, you can run:
+```bash
+git fetch <remote>
+```
