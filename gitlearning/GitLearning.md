@@ -190,3 +190,14 @@ As you just saw, to get data from your remote projects, you can run:
 ```bash
 git fetch <remote>
 ```
+
+If your current branch is set up to track a remote branch into your current branch 
+
+Tips:
+In Git, `git fetch` and `git pull` both retrieve changes from a remote repository, but they work differently.
+
+1. **`git fetch`**: Downloads updates from the remote repository to your local Git repository without affecting your working directory. It allows you to see changes without merging them immediately. You can manually merge the updates later with `git merge` or `git rebase`. This is useful when you want more control over when to integrate changes.
+
+2. **`git pull`**: Combines `git fetch` and `git merge`, downloading updates and automatically merging them into your current branch and working directory. It's useful for quickly syncing your local work with the remote repository.
+
+In short, `git fetch` only retrieves updates, while `git pull` retrieves and merges them.
