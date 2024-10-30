@@ -22,9 +22,5 @@ high efficiency
 also ribozyme (RNA could be enzyme) 
 (2) transportation function
 (3) 营养与储存功能
-<<<<<<< HEAD
-(4) 收缩与运动功能  
-=======
 (4) 收缩与运动功能
->>>>>>> 932727ce36bce5fdd1691295241a04b20fe5a30a
 垃圾课程，不想做笔记了
