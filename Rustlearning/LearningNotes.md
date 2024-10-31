@@ -56,7 +56,7 @@ edition = "2021"
 其中这些配置也一目了然
 #### [dependencies]
 ```
-[现在这个项目的dependencies还是空空如也]
+[Nothing yet]
 ```
 那么如果要自定义项目依赖，我应该怎么写呢？
 事实上，它可以有三种办法书写
@@ -66,8 +66,10 @@ rand = "0.3"
 hammer = { version = "0.5.0"}
 color = { git = "https://github.com/bjz/color-rs" }
 geometry = { path = "crates/geometry" }
-
 ```
 - 前两者是**基于官方的Rust仓库`crates.io`，通过版本说明来描述依赖**
 - 第三个是**基于项目源代码的git仓库地址，通过URL来描述**
 - 第四个是**基于本地项目的绝对路径或者相对路径，通过类似于Unix模式的路径来书写**
+  
+## Var 变量
+在 Rust 中
