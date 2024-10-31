@@ -72,4 +72,4 @@ geometry = { path = "crates/geometry" }
 - 第四个是**基于本地项目的绝对路径或者相对路径，通过类似于Unix模式的路径来书写**
   
 ## Var 变量
-在 Rust 中
+在 Rust 中，变量都是默认不可变的
